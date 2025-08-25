@@ -1,45 +1,63 @@
 # Sistemas-Embebidos-2025-2
 Repositorio que contiene los archivos  correspondientes a la materia de sistemas embebidos 2025-2
 
+# Proyecto Robot IoT con Raspberry Pi Pico 2W / ESP32-CAM
 
-Proyecto Robot IoT con Raspberry Pi Pico 2W / ESP32-CAM
-Introducción
+## Introducción
 
-En la actualidad, el desarrollo de robots controlados remotamente mediante tecnologías IoT ha cobrado gran relevancia en áreas como la automatización, la exploración y la educación. Este proyecto busca crear un robot controlable en tiempo real mediante una aplicación, que integre sensores para monitoreo y una cámara para la transmisión de video. Además, se incorpora la capacidad de acoplar múltiples robots para tareas colaborativas, ampliando así sus posibilidades de aplicación.
+Este proyecto consiste en el desarrollo de un robot controlado mediante IoT, utilizando como base una Raspberry Pi Pico 2W o una ESP32-CAM. El robot se maneja en tiempo real a través de una aplicación móvil o web, integrando sensores para monitorear la velocidad y la distancia respecto a obstáculos, así como una cámara para transmisión de video en vivo. Además, incluye un brazo robótico controlable remotamente y un sistema de acoplamiento magnético que permite conectar múltiples robots para trabajo colaborativo.
 
-Objetivos
+## Objetivos
 
-Objetivo General:
-Desarrollar un robot controlado por IoT utilizando Raspberry Pi Pico 2W o ESP32-CAM, que permita su manejo en tiempo real a través de una aplicación, integrando sensores, cámara y control remoto del brazo robótico, además de la capacidad de acoplarse a otros robots mediante imanes.
+### Objetivo General  
+Desarrollar un robot IoT controlado en tiempo real desde una aplicación, que integre sensores, cámara, control remoto del brazo robótico y acoplamiento magnético entre robots.
 
-Objetivos Específicos:
+### Objetivos Específicos  
+- Implementar sensores para control de velocidad y detección de obstáculos.  
+- Integrar cámara para transmisión en tiempo real.  
+- Controlar remotamente el brazo robótico.  
+- Desarrollar interfaz IoT para control en tiempo real vía aplicación.  
+- Diseñar sistema magnético para acoplar múltiples robots.
 
-Implementar sensores para control de velocidad y detección de obstáculos.
+## Marco Teórico
 
-Integrar una cámara para transmisión de video en tiempo real.
+El Internet de las Cosas (IoT) conecta dispositivos físicos a redes digitales para su control remoto. Las microcontroladoras Raspberry Pi Pico 2W y ESP32-CAM destacan por su bajo costo y conectividad inalámbrica, ideales para proyectos IoT. Sensores ultrasónicos y de velocidad permiten navegación autónoma evitando obstáculos. La cámara integrada facilita supervisión visual. El acoplamiento magnético es una solución sencilla para unir varios robots y permitir tareas colaborativas.
 
-Desarrollar un sistema de control remoto del brazo robótico.
+## Metodología
 
-Crear una interfaz IoT para el manejo del robot vía aplicación móvil/web.
+1. Selección y configuración del hardware: Raspberry Pi Pico 2W o ESP32-CAM.  
+2. Integración y calibración de sensores de velocidad y distancia.  
+3. Configuración de la cámara para transmisión en tiempo real.  
+4. Desarrollo del control remoto para el brazo robótico con MicroPython.  
+5. Creación de la aplicación IoT para control vía WiFi.  
+6. Instalación del sistema de acoplamiento magnético.  
+7. Pruebas de funcionamiento y ajustes finales.
 
-Diseñar un mecanismo de acoplamiento mediante imanes para la unión de múltiples robots.
+## Resultados
 
-Marco Teórico
+- Robot controlado en tiempo real mediante aplicación IoT.  
+- Sensores calibrados para detección y navegación segura.  
+- Cámara integrada con transmisión estable.  
+- Control remoto eficiente del brazo robótico.  
+- Sistema de acoplamiento magnético funcional para unir robots.
 
-El Internet de las Cosas (IoT) permite conectar dispositivos físicos a redes digitales, facilitando su control y monitoreo remoto. Las microcontroladoras Raspberry Pi Pico 2W y ESP32-CAM son plataformas populares para proyectos IoT por su bajo costo, versatilidad y conectividad inalámbrica. Los sensores ultrasónicos y de velocidad permiten que el robot navegue de manera autónoma evitando obstáculos, mientras que la cámara integrada facilita la supervisión visual en tiempo real. El uso de imanes como sistema de acoplamiento es una solución sencilla y efectiva para la unión mecánica y la colaboración entre robots.
+## Discusión
 
-Metodología
+El robot cumple con las funcionalidades esperadas, con una respuesta ágil en control remoto y navegación segura. La cámara permite supervisión en tiempo real, aunque se recomienda optimizar la calibración de sensores para mayor precisión. El acoplamiento magnético es efectivo pero puede mejorarse para terrenos irregulares. El uso de MicroPython facilitó el desarrollo y la adaptabilidad del software.
 
-Selección de Hardware: Se eligió Raspberry Pi Pico 2W o ESP32-CAM por sus características de conectividad y compatibilidad con MicroPython.
+## Tabla de Costos
 
-Diseño e Integración de Sensores: Instalación y calibración de sensores de velocidad y distancia para la detección de obstáculos.
+| Componente                        | Cantidad | Precio Unitario (USD) | Costo Total (USD) |
+|----------------------------------|----------|----------------------|-------------------|
+| Raspberry Pi Pico 2W / ESP32-CAM | 1        | 10 - 15              | 10 - 15           |
+| Sensores de distancia             | 2        | 5                    | 10                |
+| Motor y controlador para brazo   | 1        | 15                   | 15                |
+| Imanes para acoplamiento          | 4        | 2                    | 8                 |
+| Componentes eléctricos (cables, batería, etc.) | Varias    | 10                   | 10                |
+| **Total estimado**                |          |                      | **53 - 58 USD**   |
 
-Implementación de Cámara: Configuración de la cámara para transmisión en tiempo real.
+## Software
 
-Control del Brazo Robótico: Desarrollo de algoritmos en MicroPython para controlar remotamente el brazo.
+El desarrollo del software se realiza en **MicroPython**, lenguaje ligero y eficiente para microcontroladores, que facilita la gestión de sensores, comunicación WiFi, control del brazo robótico y transmisión de video.
 
-Desarrollo de la Aplicación IoT: Creación de una aplicación para control en tiempo real mediante WiFi.
 
-Diseño del Sistema de Acoplamiento: Instalación de imanes para conectar múltiples robots.
-
-Pruebas y Validación: Evaluación del desempeño en escenarios controlados y ajuste de parámetros.
