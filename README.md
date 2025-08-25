@@ -40,10 +40,13 @@ El Internet de las Cosas (IoT) conecta dispositivos físicos a redes digitales p
 | Componente                        | Cantidad | Precio Unitario (USD) | Costo Total (USD) |
 |----------------------------------|----------|----------------------|-------------------|
 | Raspberry Pi Pico 2W / ESP32-CAM | 1        | 10 - 15              | 10 - 15           |
-| Sensores de distancia             | 1        | 5                    | 10                |
-| Motor y controlador para brazo   | 1        | 15                   | 15                |
-| Imanes para acoplamiento          | 4        | 2                    | 8                 |
-| Componentes eléctricos (cables, batería, etc.) | Varias    | 10                   | 10                |
+| Sensor de Distancia de Ultrasonido HC-SR04            | 1        | 5                    | 10                |
+| MeArm + tornillos   | 1        | 15                   | 15                |
+| Servo motor SG90        | 2        | 2                    | 8                 |
+|Motores DC | 2    | 10                   | 10                |
+|Baterias Recargables | 2    | 10                   | 10                |
+|Electro Iman | 1    | 10                   | 10                |
+|Control Remoto IR + receptor IR| 1    | 10                   | 10                |
 | **Total estimado**                |          |                      | **53 - 58 USD**   |
 
 ## Software
