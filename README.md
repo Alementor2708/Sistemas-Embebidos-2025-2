@@ -50,7 +50,7 @@ El robot cumple con las funcionalidades esperadas, con una respuesta ágil en co
 | Componente                        | Cantidad | Precio Unitario (USD) | Costo Total (USD) |
 |----------------------------------|----------|----------------------|-------------------|
 | Raspberry Pi Pico 2W / ESP32-CAM | 1        | 10 - 15              | 10 - 15           |
-| Sensores de distancia             | 2        | 5                    | 10                |
+| Sensores de distancia             | 1        | 5                    | 10                |
 | Motor y controlador para brazo   | 1        | 15                   | 15                |
 | Imanes para acoplamiento          | 4        | 2                    | 8                 |
 | Componentes eléctricos (cables, batería, etc.) | Varias    | 10                   | 10                |
