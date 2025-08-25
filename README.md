@@ -33,17 +33,7 @@ El Internet de las Cosas (IoT) conecta dispositivos físicos a redes digitales p
 6. Instalación del sistema de acoplamiento magnético.  
 7. Pruebas de funcionamiento y ajustes finales.
 
-## Resultados
 
-- Robot controlado en tiempo real mediante aplicación IoT.  
-- Sensores calibrados para detección y navegación segura.  
-- Cámara integrada con transmisión estable.  
-- Control remoto eficiente del brazo robótico.  
-- Sistema de acoplamiento magnético funcional para unir robots.
-
-## Discusión
-
-El robot cumple con las funcionalidades esperadas, con una respuesta ágil en control remoto y navegación segura. La cámara permite supervisión en tiempo real, aunque se recomienda optimizar la calibración de sensores para mayor precisión. El acoplamiento magnético es efectivo pero puede mejorarse para terrenos irregulares. El uso de MicroPython facilitó el desarrollo y la adaptabilidad del software.
 
 ## Tabla de Costos
 
